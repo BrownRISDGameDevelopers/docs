@@ -1,8 +1,0 @@
-baseURL = 'https://brownrisdgamedevelopers.github.io/brgd-docs/'
-languageCode = 'en-us'
-title = 'Brown-RISD Game Developers Documentations'
-theme = "hugo-book"
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'

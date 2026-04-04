@@ -9,7 +9,7 @@ export default defineConfig({
     site: 'https://docs.brownrisd.games',
     integrations: [starlight({
         title: 'BRGD Club Documentation',
-        favicon: './src/assets/favicon.png',
+        favicon: './public/favicon.png',
         logo: {
             light: './src/assets/brgd-logo-black.png',
             dark: './src/assets/brgd-logo-white.png',
@@ -23,6 +23,7 @@ export default defineConfig({
         editLink: {
         		baseUrl: 'https://github.com/BrownRISDGameDevelopers/docs/edit/main/',
         },
+		lastUpdated: true, 
         sidebar: [
             {
                 label: 'Getting Started',
@@ -33,5 +34,6 @@ export default defineConfig({
                 autogenerate: { directory: 'reference' },
             },
         ],
-		}), mdx()],
+		}), 
+		mdx()],
 });

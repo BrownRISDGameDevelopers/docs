@@ -16,7 +16,7 @@ export default defineConfig({
             replacesTitle: true,
         },
         social: [
-            { icon: 'discord', label: 'Discord', href: 'https://discord.gg/dhrKyse6RH' },
+            { icon: 'discord', label: 'Discord', href: 'https://discord.gg/Rf4cW4AvzJ' },
             { icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/brownrisdgamedev/' },
             { icon: 'github', label: 'GitHub', href: 'https://github.com/BrownRISDGameDevelopers/docs/' },
         ],

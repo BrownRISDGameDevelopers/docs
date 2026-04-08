@@ -9,7 +9,7 @@ export default defineConfig({
     site: 'https://docs.brownrisd.games',
     integrations: [starlight({
         title: 'BRGD Club Documentation',
-        favicon: './public/favicon.png',
+        favicon: './favicon.png',
         logo: {
             light: './src/assets/brgd-logo-black.png',
             dark: './src/assets/brgd-logo-white.png',
@@ -30,8 +30,16 @@ export default defineConfig({
                 autogenerate: { directory: 'getting-started' },
             },
             {
-                label: 'Reference',
-                autogenerate: { directory: 'reference' },
+                label: 'Club Policies',
+                autogenerate: { directory: 'club-policies' },
+            },
+            {
+                label: 'Art Guides',
+                autogenerate: { directory: 'art-guides' },
+            },
+            {
+                label: 'Programming Guides',
+                autogenerate: { directory: 'programming-guides' },
             },
         ],
 		}), 
